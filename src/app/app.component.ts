@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+    title = 'app';
+
+    minDate = new Date(2017, 5, 10);
+    maxDate = new Date(2018, 9, 15);
+
+    bsValue: Date;
+    bsRangeValue: any = [new Date(2017, 7, 4), new Date(2017, 7, 20)];
+
 }
